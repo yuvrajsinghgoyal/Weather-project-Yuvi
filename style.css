@@ -1,0 +1,65 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+   
+    background:linear-gradient(135deg,#2b7a56,#2984ab);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.search{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.search>input{
+    height: 7vh;
+    width: 30vw;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.search>button>img{
+    width: 16px;
+   
+}
+.search>button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: none;
+}
+
+.tem{
+    font-size: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom:50px ;
+}
+
+.col{
+    display: flex;
+    gap: 20px;
+}
+.tem{
+    font-size: 50px;
+}
+
+.tem-kel{
+    font-size: 50px;
+}
+.city{
+    font-size: 60px;
+}
